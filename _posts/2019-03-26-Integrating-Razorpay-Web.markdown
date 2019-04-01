@@ -2,7 +2,7 @@
 layout: post
 title: Integrating razorpay into your webapp
 date:   2019-03-26 15:55:30 +0530
-categories: node, web, payments
+categories: node web payments
 description: Discussion on how to use razorpay to process payments in your web app using a node.js backend
 ---
 In order to start charging customers we require a payment processor. [Stripe](https://stripe.com) and [braintreepayments.com](http://braintreepayments.com) are popular options in this space. [Razorpay](https://razorpay.com/) is perhaps the best option as of now for the Indian audience.

@@ -35,6 +35,7 @@ plainwhite:
 # Build settings
 markdown: kramdown
 remote_theme: thelehhman/plainwhite-jekyll
+show_excerpts: true
 plugins:
   - jekyll-feed
 
