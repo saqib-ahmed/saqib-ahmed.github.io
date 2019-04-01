@@ -24,6 +24,7 @@ plainwhite:
   tagline: Developer. Designer
   date_format: "%b %-d, %Y"
   analytics_id: UA-12700425-1
+  disqus_shortname: thelehhman
 
   # generate social links in footer
   social_links:
