@@ -31,7 +31,7 @@ plainwhite:
     twitter: thelehhman
     github:  thelehhman
     linkedIn: in/thelehhman
-    rss: rss
+    # rss: rss
 # Build settings
 markdown: kramdown
 remote_theme: thelehhman/plainwhite-jekyll
