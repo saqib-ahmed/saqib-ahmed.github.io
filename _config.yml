@@ -19,6 +19,7 @@ description: >- # this means to ignore newlines until "baseurl:"
   Samarjeet Singh @thelehhman writings on design, development and more.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://thelehhman.com" # the base hostname & protocol for your site, e.g. http://example.com
+permalink: /:categories/:title/
 plainwhite:
   name: Samarjeet Singh
   tagline: Developer. Designer
