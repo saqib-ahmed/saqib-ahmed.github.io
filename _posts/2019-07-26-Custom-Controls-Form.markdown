@@ -5,7 +5,7 @@ date:   2019-07-26 15:55:30 +0530
 categories: web vue react
 ---
 
-I've seen many people implement custom POST requests for submitting form data while using SPA Frameworks like Vue & React. Most of the times, the need arises because they are using a custom component. The component's data cannot be passed as it is using HTML `<form>`. That's where `input[type=hidden]` comes to the rescue. 
+I've seen many people implement custom POST requests for submitting form data when using modern SPA Frameworks like Vue & React. Most of the times, the need arises because they are using a custom component. The component's data cannot be passed as it is using HTML `<form>`. That's where `input[type=hidden]` comes to the rescue. 
 
 Using the HTML5 Form reduces the hassle of handling the response manually. It handles form resubmission as well. However, it might not be a good choice if your app is entirely an SPA.
 
