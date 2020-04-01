@@ -6,11 +6,11 @@ categories: web
 ---
 
 Firefox is hosted on a mercurial [repository](https://hg.mozilla.org/mozilla-central), and is very large in size (~2GB).
-Having tried cloning it multiple times using `hg clone` gave the common `stream ended unexpectedly` or `http connection error`.
+I tried cloning it multiple times using `hg clone`, and each I time got either a `stream ended unexpectedly` or an `http connection` error.
 
-Hence, I tried using the bundle method as per the instructions [here](https://developer.mozilla.org/en-US/docs/Mozilla/Developer_guide/Source_Code/Mercurial/Bundles). This time, though I was able to get the code, I was getting the same errors on `hg pull`. 
+Hence, I tried using the bundle method as per the instructions [here](https://developer.mozilla.org/en-US/docs/Mozilla/Developer_guide/Source_Code/Mercurial/Bundles). This time, though I was able to get the initial code bundle, I was getting the same errors on pulling further changesets using `hg pull`. 
 
-After searching for answers online, the method which finally worked for me was pulling it chunk by chunk. I wrote the following script to do it for me
+The method which finally worked for me was pulling the code chunk by chunk. I wrote the following script to do it for me. The chunk size can be modified as per your connection speed.
 
 ```bash
 start=0
@@ -31,3 +31,5 @@ $ hg update --clean
 ```
 
 And voila, you have your own firefox repo!
+
+Also note that, if you get the same error while running the script, you can modify the variable `start` to the last chunk which was fetched(it would be printed to your console) and adjust the chunk size accordingly.
