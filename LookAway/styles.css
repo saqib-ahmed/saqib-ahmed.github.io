@@ -1,0 +1,76 @@
+
+html, body {
+  overflow-x: hidden;
+  height: 100%;
+}
+
+body {
+  font-family: 'Nunito Sans', system-ui, sans-serif;
+  line-height: 1.2em;
+  margin: 0;
+  color: #fff;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-image: linear-gradient(180deg, #A4ADB4 0%, #6A747D 100%);
+  background-repeat: no-repeat;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+button {
+  border: 0;
+  font-size: 18px;
+  padding: 15px 25px;
+  border-radius: 4px;
+  user-select: none;
+  background-color: #333;
+  transition: background-color 0.4s;
+  color: #fff;
+  width: 170px;
+  margin: 7px 0;
+  cursor: pointer;
+}
+a.button {
+  display: block;
+}
+button:focus {
+  outline: none;
+}
+button:hover {
+  background-color: #272727;
+}
+
+.button-icon {
+  vertical-align: middle;
+  margin-right: 3px;
+}
+.button-text {
+  position: relative;
+  bottom: 1px;
+}
+
+button.primary {
+  background-image: linear-gradient(180deg, #25C2E1 0%, #16ADFF 77%);
+}
+
+h1 {
+  font-size: 32px;
+  font-weight: normal;
+  margin: 35px 0;
+  margin-bottom: 24px;
+}
+
+header {
+  text-align: center;
+  padding: 60px 0;
+}
+
+.info {
+  font-size: 18px;
+  max-width: 480px;
+  padding: 0 10px;
+  margin:20px auto;
+  line-height: 1.5em;
+}
