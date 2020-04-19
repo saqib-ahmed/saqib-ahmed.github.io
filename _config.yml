@@ -13,25 +13,25 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Samarjeet Singh 
-email: thelehhman@gmail.com
+title: Saqib Ahmed 
+email: saqibahmed515@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Samarjeet Singh @thelehhman writings on design, development and more.
+  Saqib's personal blog.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://thelehhman.com" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://saqib-ahmed.com" # the base hostname & protocol for your site, e.g. http://example.com
 permalink: /:categories/:title/
 plainwhite:
-  name: Samarjeet Singh
-  tagline: Developer. Designer
+  name: Saqib Ahmed
+  tagline: Developer. Engineer
   date_format: "%b %-d, %Y"
-  analytics_id: UA-127004425-1
-  disqus_shortname: thelehhman
+  analytics_id: UA-163808055-1
+  disqus_shortname: disqus_zRYQtZP44D
 
   # generate social links in footer
   social_links:
-    twitter: thelehhman
-    github:  thelehhman
-    linkedIn: in/thelehhman
+    twitter: saqibahmed515
+    github:  saqib-ahmed
+    linkedIn: in/saqib-ahmed
     # rss: rss
 # Build settings
 markdown: kramdown
