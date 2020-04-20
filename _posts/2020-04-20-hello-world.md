@@ -8,5 +8,4 @@ I've been thinking about starting a blog for quite some time now. I wouldn't say
 
 I'm gonna write some random stuff here about my personal and professional experiences. After every breakthrough in my professional life (no matter how small it was), I always felt an urge to write about it. Now I have a platform to do it, so here come my ramblings. 
 
-<blockquote class="twitter-tweet"><p lang="en" dir="ltr">I&#39;m gonna start writing a blog. It was long overdue.<a href="https://t.co/JUVGnUTluj">https://t.co/JUVGnUTluj</a></p>&mdash; Saqib Ahmed (@saqibahmed515) <a href="https://twitter.com/saqibahmed515/status/1252244715933700096?ref_src=twsrc%5Etfw">April 20, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-
+<div align="center"><blockquote class="twitter-tweet"><p lang="en" dir="ltr">I&#39;m gonna start writing a blog. It was long overdue.<a href="https://t.co/JUVGnUTluj">https://t.co/JUVGnUTluj</a></p>&mdash; Saqib Ahmed (@saqibahmed515) <a href="https://twitter.com/saqibahmed515/status/1252244715933700096?ref_src=twsrc%5Etfw">April 20, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script></div>
