@@ -1,2 +1,2 @@
 User-agent: *
-Sitemap: https://nikhita.github.io/sitemap.xml
+Sitemap: https://saqib-ahmed.com/sitemap.xml

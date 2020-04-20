@@ -1,54 +1,69 @@
 ==================================================================
-https://keybase.io/nikhita
+https://keybase.io/saqibahmed
 --------------------------------------------------------------------
 
 I hereby claim:
 
-  * I am an admin of https://nikhita.github.io
-  * I am nikhita (https://keybase.io/nikhita) on keybase.
-  * I have a public key ASBiFn0btDxvOOjNeEr2R3c_TL5hRFmzYgz-JQJ3gccd9go
+  * I am an admin of https://saqib-ahmed.com
+  * I am saqibahmed (https://keybase.io/saqibahmed) on keybase.
+  * I have a public key with fingerprint A0B0 7D35 4F1B 52BB 543A  820E D9AB 72CD 3760 57F9
 
 To do so, I am signing this object:
 
 {
-    "body": {
-        "key": {
-            "eldest_kid": "012062167d1bb43c6f38e8cd784af647773f4cbe614459b3620cfe25027781c71df60a",
-            "host": "keybase.io",
-            "kid": "012062167d1bb43c6f38e8cd784af647773f4cbe614459b3620cfe25027781c71df60a",
-            "uid": "3af40b5168a5a66e941f92f93459cc19",
-            "username": "nikhita"
-        },
-        "service": {
-            "hostname": "nikhita.github.io",
-            "protocol": "https:"
-        },
-        "type": "web_service_binding",
-        "version": 1
+  "body": {
+    "key": {
+      "eldest_kid": "010166577a7f8d31d58c6db86d1665f469a692f37f29cfb4810890d83e1a839e10f80a",
+      "fingerprint": "a0b07d354f1b52bb543a820ed9ab72cd376057f9",
+      "host": "keybase.io",
+      "key_id": "d9ab72cd376057f9",
+      "kid": "010166577a7f8d31d58c6db86d1665f469a692f37f29cfb4810890d83e1a839e10f80a",
+      "uid": "929f77f8f53dc277826a7ce0d6e6c619",
+      "username": "saqibahmed"
     },
-    "client": {
-        "name": "keybase.io go client",
-        "version": "1.0.18"
+    "service": {
+      "hostname": "saqib-ahmed.com",
+      "protocol": "https:"
     },
-    "ctime": 1492161516,
-    "expire_in": 504576000,
-    "merkle_root": {
-        "ctime": 1492161451,
-        "hash": "d8d552272674780914577a8af50a055cfc625545e04583b50a6585a65055b80b2929c0eac98da887d1149aee54ea5c8754a7fa4b763ca043392c518cf168ab17",
-        "seqno": 1018617
-    },
-    "prev": "054b40960e900b103c07181f22c4487525215ac3e6e1f4bf7f18636d1d0b6ccc",
-    "seqno": 14,
-    "tag": "signature"
+    "type": "web_service_binding",
+    "version": 1
+  },
+  "ctime": 1587247625,
+  "expire_in": 157680000,
+  "prev": "d13b070261608c881787e32d509dbf4de56324402ef142a3e2dc06ca55217fcb",
+  "seqno": 15,
+  "tag": "signature"
 }
 
 which yields the signature:
 
-hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgYhZ9G7Q8bzjozXhK9kd3P0y+YURZs2IM/iUCd4HHHfYKp3BheWxvYWTFAvp7ImJvZHkiOnsia2V5Ijp7ImVsZGVzdF9raWQiOiIwMTIwNjIxNjdkMWJiNDNjNmYzOGU4Y2Q3ODRhZjY0Nzc3M2Y0Y2JlNjE0NDU5YjM2MjBjZmUyNTAyNzc4MWM3MWRmNjBhIiwiaG9zdCI6ImtleWJhc2UuaW8iLCJraWQiOiIwMTIwNjIxNjdkMWJiNDNjNmYzOGU4Y2Q3ODRhZjY0Nzc3M2Y0Y2JlNjE0NDU5YjM2MjBjZmUyNTAyNzc4MWM3MWRmNjBhIiwidWlkIjoiM2FmNDBiNTE2OGE1YTY2ZTk0MWY5MmY5MzQ1OWNjMTkiLCJ1c2VybmFtZSI6Im5pa2hpdGEifSwic2VydmljZSI6eyJob3N0bmFtZSI6Im5pa2hpdGEuZ2l0aHViLmlvIiwicHJvdG9jb2wiOiJodHRwczoifSwidHlwZSI6IndlYl9zZXJ2aWNlX2JpbmRpbmciLCJ2ZXJzaW9uIjoxfSwiY2xpZW50Ijp7Im5hbWUiOiJrZXliYXNlLmlvIGdvIGNsaWVudCIsInZlcnNpb24iOiIxLjAuMTgifSwiY3RpbWUiOjE0OTIxNjE1MTYsImV4cGlyZV9pbiI6NTA0NTc2MDAwLCJtZXJrbGVfcm9vdCI6eyJjdGltZSI6MTQ5MjE2MTQ1MSwiaGFzaCI6ImQ4ZDU1MjI3MjY3NDc4MDkxNDU3N2E4YWY1MGEwNTVjZmM2MjU1NDVlMDQ1ODNiNTBhNjU4NWE2NTA1NWI4MGIyOTI5YzBlYWM5OGRhODg3ZDExNDlhZWU1NGVhNWM4NzU0YTdmYTRiNzYzY2EwNDMzOTJjNTE4Y2YxNjhhYjE3Iiwic2Vxbm8iOjEwMTg2MTd9LCJwcmV2IjoiMDU0YjQwOTYwZTkwMGIxMDNjMDcxODFmMjJjNDQ4NzUyNTIxNWFjM2U2ZTFmNGJmN2YxODYzNmQxZDBiNmNjYyIsInNlcW5vIjoxNCwidGFnIjoic2lnbmF0dXJlIn2jc2lnxECe+n7QAohYu/avoRRYavTwG9KAqvK2QhcUhC8iLu43KISey9VwBzS6odeYSac/FHQCDz6uMoZrti9RHS6GO0YOqHNpZ190eXBlIKRoYXNogqR0eXBlCKV2YWx1ZcQgJyGY4j1B/3IRznjARyilMmDQWTvLxGdidGp7Jlvi4R6jdGFnzQICp3ZlcnNpb24B
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v2.1.13
+Comment: https://keybase.io/crypto
+
+yMIoAnicrVJdSBVBFL5mGtoPoZJZCrolFVh3dnZ3ZtawIsKMqMxCsKzL7M6sbnnv
+Xu/ee/0vC6zQvEgYBqEFUWH4FkJo/2VWRoQ9ZSEVGUQ9KCQUhLUrBT302LwMc873
+fec7Z87DhfGe5Ljq4KOWJd+ziuNG7nVHPAfP1yc1CJrF6oT8BuEwn714FeN22HfY
+ZEK+AEQgIqRgTLFBmCQyheiIaQQxN2zISKVIhYaEDajqhiYTERAVMCJxkRJJ5SIw
+CKBCnmCYgQoeCobMQNiRpUADmEmKbIiaAjVNkSVKIOBMpRqGOpMwAgo2VIdYadku
+wzGnUZuvMy0n5jx8s/b+gf/PviOzcipUDewoGYrEdIgxgYhinQOGONKR6NaN2DwU
+oH7uoG1abWq00s+Z0JQnOPGoqXN3tG4vf2PWzoLW6ZbfEQiGrLClW1VOsjIcDtr5
+LjlcF3TRNVzz/dbxaWaAOcN0GFEesk0rIOSLDlIPm66wqBAMZYygkifw2qAZ4j7T
+RSgYEeActw6PuqMTJecPAEQiAkQnRMQEcwkyBahMM2TGFSRBWQaQG6IMqcQh0wHS
+qaJAERu6JridVQcsV9vxSSvcpsyKAA1HQlxoun+3fK4nLtmTmDDH3TJPctLiP7vX
+uWHez4Y1sGCirq8na+UOozc+1jfqu5p22RoYf92RYO0pO10bO5RZvj91Ojb2qWSq
+LE9KSR882rXmeNnjV63m3jHvt49Do71FrGPK+/bD8pnP7+12b0rBztTdN2+nTf7w
+1nnOZlawzAtTE+ldX2pfDvgfNacXRRubs4m3td97+0V3KbR33RzUn53MakyLZl+f
+Hl62SD9251Ju+oi/fzUoqrqWfWZVe+WpmrQnfEGkOLF9WyGdaKu/VdrIhlqfP41d
+vLHtyIGcXP+Mf0snShxKer5Je7d5KuPNsxUtbGVhxtKB9dtzLl6J5ZLh8ien2+5N
+3s08t69kY++J+Z/jLwx3jPc8+Lp16Bc6qzu5
+=ZBce
+-----END PGP MESSAGE-----
 
 And finally, I am proving ownership of this host by posting or
 appending to this document.
 
-View my publicly-auditable identity here: https://keybase.io/nikhita
+View my publicly-auditable identity here: https://keybase.io/saqibahmed
 
 ==================================================================
+

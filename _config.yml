@@ -1,22 +1,22 @@
 
 # Site settings
-title: Nikhita Raghunath
-name: Nikhita Raghunath
-subtitle: Learnings, Ramblings and Rants
-email: hello@nikhita.dev
+title: Saqib Ahmed
+name: Saqib Ahmed
+subtitle: Ramblings about personal experiences
+email: saqibahmed515@gmail.com
 description: >
-  A personal website about technical things I find useful. Also, random ramblings and rants.
+  My personal blog for writing my experiences as a professional developer.
 baseurl: ""
-url: "https://www.nikhita.dev"
-twitter_username: TheNikhita
-github_username:  nikhita
-disqus_baseurl: "https://nikhita.github.io/"
-disqus_shortname: https-nikinath-github-io
+url: "https://saqib-ahmed.com"
+twitter_username: saqibahmed515
+github_username:  saqib-ahmed
+disqus_baseurl: "https://saqib-ahmed.com/"
+disqus_shortname: saqib-ahmed-com
 permalink: :title
 cover: "/assets/header_image.jpg"
 logo: "/assets/nr-logo.jpg"
 avatar: "/assets/headshot.jpg"
-ga_tracking_id: "UA-82647777-1"
+ga_tracking_id: "UA-163808055-1"
 
 # Build settings
 markdown: kramdown
@@ -29,7 +29,7 @@ defaults:
     scope:
       path: ""
     values:
-      author: "Nikhita Raghunath"
+      author: "Saqib Ahmed"
 
 
 # External gems
@@ -64,29 +64,29 @@ collections:
 social:
   - name: Twitter
     icon: twitter
-    username: TheNikhita
-    url: https://twitter.com/TheNikhita
+    username: saqibahmed515
+    url: https://twitter.com/saqibahmed515
     desc: Follow me on Twitter
     share: true
 
   - name: Quora
     icon: quora
-    username: NikhitaRaghunath
+    username: Saqib-Ahmed-1
     url:
     desc: Follow me on Quora
     share: true
 
   - name: GitHub
     icon: github
-    username: nikhita
-    url: https://github.com/nikhita
+    username: saqib-ahmed
+    url: https://github.com/saqib-ahmed
     desc: Fork me on GitHub
     share: false
 
   - name: LinkedIn
     icon: linkedin
-    username: Nikhita Raghunath
-    url: https://in.linkedin.com/in/nikinath
+    username: Saqib Ahmed
+    url: https://in.linkedin.com/in/saqib-ahmed
     desc: Connect with me on LinkedIn
     share: true
 
@@ -185,6 +185,6 @@ protocols:
 
     twitter_image: "/assets/nr-logo.jpg"
 
-    os_repo: "https://github.com/nikhita/nikhita.github.io"
+    os_repo: "https://github.com/saqib-ahmed/saqib-ahmed.github.io"
     os_rcs_type: "git"
-    os_src: "git@github.com:nikhita.github.io.git"
+    os_src: "git@github.com:saqib-ahmed.github.io.git"
