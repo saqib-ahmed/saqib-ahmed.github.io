@@ -10,8 +10,6 @@ baseurl: ""
 url: "https://saqib-ahmed.com"
 twitter_username: saqibahmed515
 github_username:  saqib-ahmed
-disqus_baseurl: "https://saqib-ahmed.com/"
-disqus_shortname: saqib-ahmed-com
 permalink: :title
 cover: "/assets/header_image.jpg"
 logo: "/assets/nr-logo.jpg"

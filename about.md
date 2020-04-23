@@ -49,6 +49,10 @@ You can find me at these places but the most reliable way to reach me is to send
         <a href="https://reddit.com/user/saqibahmed515">
             <i class="fab fa-reddit" aria-hidden="true" style="font-size:40px;color:#2980b9;"></i>
         </a>
+&nbsp; &nbsp; &nbsp;
+        <a href="https://www.researchgate.net/profile/Saqib_Ahmed4">
+            <i class="fab fa-researchgate" aria-hidden="true" style="font-size:40px;color:#2980b9;"></i>
+        </a>
     </p>
 </div>
 
