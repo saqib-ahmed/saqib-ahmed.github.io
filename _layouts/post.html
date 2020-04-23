@@ -12,6 +12,10 @@ layout: default
   </div>
 </div>
 
+<div id="overlay" style="position: fixed; display: none; left: 15%; text-align: center;">
+    {% include share.html %}
+</div>
+
 <div class="wrapper">
 
 {% unless page.cover %} {% include page_divider.html %} {% endunless %}
@@ -29,7 +33,7 @@ layout: default
   </div>
 </section>
 
-<article class="post-content">
+<article class="post-content" id="post-content">
   {{ content }}
 </article>
 
@@ -41,7 +45,7 @@ layout: default
 {% endif %}
 {% endif %}
 
-<section class="rss">
+<section class="rss" id="rss">
   <p class="rss-subscribe text"><strong>Subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></strong></p>
 </section>
 
@@ -119,7 +123,7 @@ layout: default
 {% endif %}
 
 {% if page.comments %}
-<section class="disqus">
+<section class="disqus" id="disqus">
   <script src="https://utteranc.es/client.js"
           repo="saqib-ahmed/saqib-ahmed.github.io"
           issue-term="url"
@@ -132,3 +136,27 @@ layout: default
 
 </div>
 </div>
+
+<script>
+  setTimeout(() => {
+    var postContent = $('#post-content') 
+    var start = postContent.offset().top - 100
+    var end = start + postContent.height() - 700
+    console.log(start);
+    console.log(end);
+    console.log(postContent.height());
+    
+    let isMobile = window.matchMedia("only screen and (max-width: 760px)").matches;
+
+    if(!isMobile){
+      $(document).scroll(function() {
+      var y = $(this).scrollTop();
+      if (y < end) {
+        $('#overlay').fadeIn();
+      } else {
+        $('#overlay').fadeOut();
+      }
+    });
+    }
+  }, 500);
+</script>
