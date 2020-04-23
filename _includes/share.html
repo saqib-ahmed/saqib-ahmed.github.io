@@ -5,45 +5,24 @@
     </a>
 </div>
 <span style="font-size: 0.85rem;">Share </span>
-  {% for social in site.social %}
-    {% capture full_url %}{{ site.url }}{{ site.baseurl }}{{ page.url }}{% endcapture %}
-    <div>
-        {% if social.name == "Twitter" and social.share == true %}
-        <a href="//twitter.com/share?text={{ page.title | cgi_escape }}&url={{ full_url | cgi_escape}}&via={{social.username}}"
-          onclick="window.open(this.href, '{{ social.icon }}-share', 'width=550,height=255');return false;">
-          <i class="fab fa-{{ social.icon | remove_first: '-square' }}-square fa-lg"></i>
-        </a>
-      {% endif %}
-    </div>
-    <div>
-        {% if social.name == "Facebook" and social.share == true %}
-        <a href="//www.facebook.com/sharer.php?t={{ page.title | cgi_escape }}&u={{ full_url | cgi_escape}}"
-          onclick="window.open(this.href, '{{ social.icon }}-share', 'width=550,height=255');return false;">
-          <i class="fab fa-{{ social.icon | remove_first: '-square' }}-square fa-lg"></i>
-        </a>
-      {% endif %}
-    </div>
-
-    {% if social.name == "LinkedIn" and social.share == true %}
-      <a href="//www.linkedin.com/shareArticle?mini=true&url={{ full_url | cgi_escape}}"
-        onclick="window.open(this.href, '{{ social.icon }}-share', 'width=550,height=255');return false;">
-        <i class="fab fa-{{ social.icon | remove_first: '-square' }} fa-lg"></i>
-      </a>
-    {% endif %}
-    {% if social.name == "Pinterest" and social.share == true %}
-      <a href="//www.pinterest.com/pin/create/button/?description={{ page.title | cgi_escape }}&url={{ full_url | cgi_escape}}&media={{ site.url }}{% if page.cover %}{{ page.cover | prepend: site.baseurl  }}{% elsif site.cover %}{{ site.cover | prepend: site.baseurl }}{% else %}{{ site.logo | prepend: site.baseurl }}{% endif %}"
-        onclick="window.open(this.href, '{{ social.icon }}-share', 'width=550,height=255');return false;">
-        <i class="fab fa-{{ social.icon | remove_first: '-square' }}-square fa-lg"></i>
-      </a>
-    {% endif %}
-    {% if social.name == "Reddit" and social.share == true %}
-      <a href="//www.reddit.com/submit" onclick="window.location = '//www.reddit.com/submit?url=' + encodeURIComponent('{{ full_url }}') + '&title={{page.title}}'; return false">
-        <i class="fab fa-{{ social.icon | remove_first: '-square' }}-square fa-lg"></i>
-      </a>
-    {% endif %}
-    {% if social.name == "Hacker News" and social.share == true %}
-      <a href="//news.ycombinator.com/submitlink" onclick="window.location = '//news.ycombinator.com/submitlink?u=' + encodeURIComponent('{{ full_url }}') + '&t={{page.title}}'; return false">
-        <i class="fab fa-{{ social.icon | remove_first: '-square' }} fa-lg"></i>
-      </a>
-    {% endif %}
-  {% endfor %}
+<br>
+<a target="_blank" href="https://twitter.com/intent/tweet?text={{ page.title | cgi_escape}}&url={{ page.url | absolute_url }}&via={{site.social[0].username}}" onclick="window.open(this.href, 'twitter-share', 'width=550,height=255');return false;">
+  <i class="fab fa-twitter-square fa-lg"></i>
+</a>
+<br>
+<a target="_blank" href="https://facebook.com/sharer.php?u={{ page.url | absolute_url }}" onclick="window.open(this.href, 'facebook-share', 'width=550,height=435');return false;">
+  <i class="fab fa-facebook-square fa-lg"></i>
+</a>
+<br>
+<a target="_blank" href="//www.linkedin.com/shareArticle?mini=true&url={{ page.url | absolute_url}}"
+  onclick="window.open(this.href, 'linkedin-share', 'width=550,height=255');return false;">
+  <i class="fab fa-linkedin fa-lg"></i>
+</a>
+<br>
+<a target="_blank" href="//www.reddit.com/submit" onclick="window.location = '//www.reddit.com/submit?url=' + encodeURIComponent('{{ page.url | absolute_url}}') + '&title={{page.title}}'; return false">
+  <i class="fab fa-reddit-square fa-lg"></i>
+</a>
+<br>
+<a target="_blank" href="//news.ycombinator.com/submitlink" onclick="window.location = '//news.ycombinator.com/submitlink?u=' + encodeURIComponent('{{ page.url | absolute_url}}') + '&t={{page.title}}'; return false">
+  <i class="fab fa-hacker-news fa-lg"></i>
+</a>

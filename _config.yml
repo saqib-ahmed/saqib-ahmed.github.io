@@ -88,6 +88,13 @@ social:
     desc: Connect with me on LinkedIn
     share: true
 
+  - name: Facebook
+    icon: facebook
+    username: 
+    url:
+    desc: Share on Facebook
+    share: true
+
   - name: Google+
     icon: google-plus
     username:
