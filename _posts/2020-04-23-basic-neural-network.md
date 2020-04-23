@@ -203,7 +203,7 @@ Finally we update the weights by multiplying the learning rate and the change in
 This is it. We have our neural network implemented without any libraries. We have demonstrated the one-to-one correlation between math and the code. 
 
 ### Complete code
-The complete code of the `NeuralNetwork` class and its usage has been given in [this repository](https://github.com/DevUnleash/Predicting-Bike-Sharing). You can simply execute the Jupyter notebook in the repository to see the neural network in action. I'll write about the experiment in the notebook in some other blog post. This neural network can be used on other datasets. With this much code, you can create "artificial intelligence". 
+The complete code of the `NeuralNetwork` class and a usage example has been explained in the [next post](https://saqib-ahmed.com/predicting-bike-sharing). This neural network can be used on other datasets as well. Refer to the next post to see it in action. The bottom line is: with only this much code, you can create much-hyped "artificial intelligence". Things aren't that scary once you know the underlying details. The present-day AI is not gonna take over the human civilization yet. The knowledge always curbs unknown fears.
 
 
 ### References and further readings
