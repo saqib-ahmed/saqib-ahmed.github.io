@@ -6,23 +6,27 @@
 </div>
 <span style="font-size: 0.85rem;">Share </span>
 <br>
-<a target="_blank" href="https://twitter.com/intent/tweet?text={{ page.title | cgi_escape}}&url={{ page.url | absolute_url }}&via={{site.social[0].username}}" onclick="window.open(this.href, 'twitter-share', 'width=550,height=255');return false;">
+<a target="_blank" href="https://twitter.com/intent/tweet?text={{ page.title | cgi_escape}}&url={{ page.url | absolute_url }}&via={{site.social[0].username}}" 
+    onclick="window.open(this.href, 'twitter-share', 'width=550,height=255');return false;">
   <i class="fab fa-twitter-square fa-lg"></i>
 </a>
 <br>
-<a target="_blank" href="https://facebook.com/sharer.php?u={{ page.url | absolute_url }}" onclick="window.open(this.href, 'facebook-share', 'width=550,height=435');return false;">
+<a target="_blank" href="https://facebook.com/sharer.php?u={{ page.url | absolute_url }}" 
+    onclick="window.open(this.href, 'facebook-share', 'width=550,height=435');return false;">
   <i class="fab fa-facebook-square fa-lg"></i>
 </a>
 <br>
 <a target="_blank" href="//www.linkedin.com/shareArticle?mini=true&url={{ page.url | absolute_url}}"
-  onclick="window.open(this.href, 'linkedin-share', 'width=550,height=255');return false;">
+    onclick="window.open(this.href, 'linkedin-share', 'width=550,height=255');return false;">
   <i class="fab fa-linkedin fa-lg"></i>
 </a>
 <br>
-<a target="_blank" href="//www.reddit.com/submit" onclick="window.location = '//www.reddit.com/submit?url=' + encodeURIComponent('{{ page.url | absolute_url}}') + '&title={{page.title}}'; return false">
+<a target="_blank" href="//www.reddit.com/submit?url={{ page.url | absolute_url}}&title={{page.title}}" 
+   onclick="window.open(this.href, 'reddit-share', 'width=550,height=255');return false;">
   <i class="fab fa-reddit-square fa-lg"></i>
 </a>
 <br>
-<a target="_blank" href="//news.ycombinator.com/submitlink" onclick="window.location = '//news.ycombinator.com/submitlink?u=' + encodeURIComponent('{{ page.url | absolute_url}}') + '&t={{page.title}}'; return false">
+<a target="_blank" href="//news.ycombinator.com/submitlink?u={{ page.url | absolute_url}}&t={{page.title}}" 
+    onclick="window.open(this.href, 'hackernews-share', 'width=550,height=255');return false;">
   <i class="fab fa-hacker-news fa-lg"></i>
 </a>
