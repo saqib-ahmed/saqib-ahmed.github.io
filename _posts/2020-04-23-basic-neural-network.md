@@ -3,6 +3,7 @@ layout: post
 title: Implementing a basic Neural Network
 description: Implementing a proof-of-concept neural network without any specialized library.
 keywords: deep learning, machine learning, AI, neural networks, forecasting, Pytorch, python 
+header-img: assets/generic_neural_network.svg
 comments: true
 ---
 

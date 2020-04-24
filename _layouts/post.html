@@ -68,7 +68,7 @@ layout: default
     onclick="window.open(this.href, 'reddit-share', 'width=550,height=255');return false;">
     <i class="fab fa-reddit-square fa-lg"></i>
   </a>
-  
+
   <a target="_blank" href="//news.ycombinator.com/submitlink?u={{ page.url | absolute_url}}&t={{page.title}}" 
     onclick="window.open(this.href, 'hackernews-share', 'width=550,height=255');return false;">
   <i class="fab fa-hacker-news fa-lg"></i>
@@ -122,9 +122,6 @@ layout: default
     var postContent = $('#post-content') 
     var start = postContent.offset().top - 100
     var end = start + postContent.height() - 700
-    console.log(start);
-    console.log(end);
-    console.log(postContent.height());
     
     let isMobile = window.matchMedia("only screen and (max-width: 760px)").matches;
 
