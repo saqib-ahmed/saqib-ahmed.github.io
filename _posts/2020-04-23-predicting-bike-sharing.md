@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Forecasting with a simple Neural Network
-description: Forecast bike sharing with a raw neural network
+description: Forecast bike sharing with a raw neural network. Proof-of-concept neural network design.
 keywords: deep learning, machine learning, AI, neural networks, forecasting, Pytorch, python, Udacity, bike-sharing
 header-img: assets/predicting-bike-sharing_25_0.png
 comments: true
